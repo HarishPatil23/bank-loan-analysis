@@ -32,7 +32,7 @@ CREATE TABLE bank_loan_data (
     loan_status             VARCHAR(30),
     member_id               INT,
     purpose                 VARCHAR(50),
-    sub_grade               VARCHAR(3),
+    sub_grade               CHAR(3),
     term                    VARCHAR(20),
     verification_status     VARCHAR(30),
 
