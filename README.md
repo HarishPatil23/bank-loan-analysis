@@ -2,6 +2,7 @@
 
 
 A full end-to-end data analytics project analyzing a bank's consumer loan portfolio using **MySQL** for KPI validation and **Power BI** for interactive reporting and visualization. The project covers 38,576 loan records and delivers three report pages: Summary, Overview, and Details.
+
 ---
 
 ## Report Screenshots
