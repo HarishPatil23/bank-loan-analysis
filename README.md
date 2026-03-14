@@ -1,30 +1,29 @@
-# Bank Loan Portfolio Analysis — SQL + Power BI
+# Bank Loan Portfolio Analysis - SQL + Power BI
 
 
-A full end-to-end data analytics project analyzing a bank's consumer loan portfolio using **MySQL** for KPI validation and **Power BI** for interactive dashboard reporting. The project covers 38,576 loan records and delivers three dashboards: Summary, Overview, and Details.
-
+A full end-to-end data analytics project analyzing a bank's consumer loan portfolio using **MySQL** for KPI validation and **Power BI** for interactive reporting and visualization. The project covers 38,576 loan records and delivers three report pages: Summary, Overview, and Details.
 ---
 
-## Dashboard Screenshots
+## Report Screenshots
 
-### Dashboard 1 - Summary
+### Report Page 1 - Summary
 > Executive KPIs · Good vs Bad Loan Analysis · Loan Status Grid
 
-![Summary Dashboard](assets/summary_dashboard.png)
+![Summary Report Page](assets/summary_report.png)
 
 ---
 
-### Dashboard 2 - Overview
+### Report Page 2 - Overview
 > Monthly Trends · Regional Map · Loan Purpose · Term Split · Employment Length · Home Ownership
 
-![Overview Dashboard](assets/overview_dashboard.png)
+![Overview Report Page](assets/overview_report.png)
 
 ---
 
-### Dashboard 3 - Details
+### Report Page 3 - Details
 > Loan-level drill-through grid with filters by Grade, State, and Loan Quality
 
-![Details Dashboard](assets/details_dashboard.png)
+![Details Report Page](assets/details_report.png)
 
 ---
 
@@ -38,9 +37,9 @@ bank-loan-analysis/
 ├── bank_loan.csv                     # Raw dataset (38,576 records)
 │
 ├── assets/
-│   ├── summary_dashboard.png
-│   ├── overview_dashboard.png
-│   └── details_dashboard.png
+│   ├── summary_report.png
+│   ├── overview_report.png
+│   └── details_report.png
 │
 ├── docs/
 │   ├── bank_loan-domain_knowledge.pdf
@@ -91,7 +90,7 @@ The bank needed a reliable reporting framework to:
 
 ##  KPIs Tracked
 
-### Summary Dashboard
+### Summary Report Page
 | KPI | Total | MTD (Dec 2021) | MoM |
 |-----|-------|----------------|-----|
 | Total Loan Applications | 38,576 | 4,314 | ↑ 6.9% |
@@ -118,7 +117,7 @@ The bank needed a reliable reporting framework to:
 
 ---
 
-##  Overview Dashboard — Charts
+##  Overview Report Page - Charts
 
 | Chart Type | Dimension | Key Insight |
 |------------|-----------|-------------|
@@ -217,20 +216,20 @@ source 06_overview_dashboard.sql
 | Tool | Version | Purpose |
 |------|---------|---------|
 | MySQL | 8.0 | Database setup, data ingestion, KPI validation, query execution |
-| Power BI Desktop | May 2024 | Interactive dashboards, DAX measures |
+| Power BI Desktop | May 2024 | Interactive reports, DAX measures |
 | MS Excel | 2021 | Data exploration and cross-validation |
 
 ---
 
 ##  Key Findings
 
-- **86.2% of the portfolio is healthy** — well within typical industry benchmarks for consumer lending
-- **Charged-off loans returned only 56.9% of funded capital** — $37.3M received against $65.5M issued
-- **Debt consolidation dominates** — nearly 47% of all applications, reflecting borrowers managing existing debt
-- **73.2% prefer 36-month terms** — strong preference for shorter repayment periods over 60-month loans
-- **10+ year employees are the most active borrowers** — accounting for 8,900 applications, more than any other group
-- **Consistent growth throughout 2021** — loan volume peaked in December at 4,314 applications (↑ 6.9% MoM)
-- **Current loans carry the highest interest rate (15.1%)** — higher than both fully paid (11.64%) and charged-off loans (13.88%)
+- **86.2% of the portfolio is healthy** - well within typical industry benchmarks for consumer lending
+- **Charged-off loans returned only 56.9% of funded capital** - $37.3M received against $65.5M issued
+- **Debt consolidation dominates** - nearly 47% of all applications, reflecting borrowers managing existing debt
+- **73.2% prefer 36-month terms** - strong preference for shorter repayment periods over 60-month loans
+- **10+ year employees are the most active borrowers** - accounting for 8,900 applications, more than any other group
+- **Consistent growth throughout 2021** - loan volume peaked in December at 4,314 applications (↑ 6.9% MoM)
+- **Current loans carry the highest interest rate (15.1%)** - higher than both fully paid (11.64%) and charged-off loans (13.88%)
 
 ---
 
