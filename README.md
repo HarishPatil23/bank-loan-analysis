@@ -1,10 +1,5 @@
 # Bank Loan Portfolio Analysis — SQL + Power BI
 
-![MySQL](https://img.shields.io/badge/MySQL-8.0-blue?logo=mysql&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power%20BI-June%202023-yellow?logo=powerbi&logoColor=black)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![Records](https://img.shields.io/badge/Records-38%2C576-informational)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
 A full end-to-end data analytics project analyzing a bank's consumer loan portfolio using **MySQL** for KPI validation and **Power BI** for interactive dashboard reporting. The project covers 38,576 loan records and delivers three dashboards: Summary, Overview, and Details.
 
